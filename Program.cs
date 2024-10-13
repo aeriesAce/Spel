@@ -40,59 +40,79 @@ static class Program
         LoadJson();
         Room startArea = new Room("Isn't it wierd to just.. wake up?");
         Room grassField = new Room("The smell of grass calms you down");
-        // Room outsideHouse = new Room("You look up at the crooked house, the door is slightly open");
-        // Room lake = new Room("The lake glisters in the sun, is that a person?");
-        // Room insideHouse = new Room("You look at the weirdo sleeping in his rocking chair");
+        Room outsideHouse = new Room("You look at the weirdo sleeping in his rocking chair");
+        Room lake = new Room("The lake glisters in the sun, is that a person?");
         Room outsideDungeon = new Room("The gate looks heavy..");
         rooms.Add(startArea);
         rooms.Add(grassField);
+        rooms.Add(lake);
+        rooms.Add(outsideHouse);
         rooms.Add(outsideDungeon);
 
-
-        //Path pathToHouse = new Path(outsideHouse.id, "You see a old house.", "Walk");
-        Path pathToStartArea = new Path(startArea.id, "You look to your right, a narrow path leads between the trees", "Walk");
+        Path pathToHouse = new Path(outsideHouse.id, "You see a old house.", "Walk");
         Path pathToField = new Path(grassField.id, "A gentle breeze guides you forward.", "Follow");
-        //Path pathInsideHouse = new Path(insideHouse.id, "The door creeks as you reach for it.", "Open");
-        //Path pathToLake = new Path(lake.id, "You continue on the path through the trees, a small pond is in your way", "Jump");
+        Path pathToLake = new Path(lake.id, "You continue on the path through the trees, a small pond is in your way", "Jump");
         Path pathToDungeon = new Path(outsideDungeon.id, "A mountain looms in the distance, it's a long days march but if you sprint you will make it before night falls.", "Sprint");
-
-        paths.Add(pathToStartArea);
         paths.Add(pathToField);
+        paths.Add(pathToHouse);
+        paths.Add(pathToLake);
         paths.Add(pathToDungeon);
 
-        startArea.pathIds.Add(pathToField.id); //ska gå till antingen fältet, utsidan huset eller sjön
-        grassField.pathIds.Add(pathToDungeon.id);//fältet ska endast gå till dungeon entrance
-        //outsideHouse.pathIds.Add(pathToField.id);//ska gå till antingen huset eller tillbaka
-        //lake.pathIds.Add(pathInsideHouse.id); //ska bara gå att gå tillbaka
-        //insideHouse.pathIds.Add(pathToLake.id); //ska bara gå att gå tillbaka till outsideHouse
-        //outsideDungeon.pathIds.Add(pathToDungeon.id); //ska lägga till dungeon och ny path
+        startArea.pathIds.Add(pathToField.id); //ska gå till fältet
+        grassField.pathIds.Add(pathToHouse.id);//fältet ska gå till dungeon entrance, utsidan huset eller sjön
+        grassField.pathIds.Add(pathToDungeon.id);
+        grassField.pathIds.Add(pathToLake.id);
+        outsideHouse.pathIds.Add(pathToField.id);//ska gå till antingen huset eller tillbaka
+        lake.pathIds.Add(pathToField.id); //ska bara gå att gå tillbaka
+        outsideDungeon.pathIds.Add(pathToDungeon.id); //ska lägga till dungeon och ny path
 
         SaveToJson();
 
         Room currentRoom = startArea;
-        Room nextRoom = grassField;
-        Path path1 = pathToField;
 
         while (true)
         {
             Console.WriteLine(currentRoom.description);
             foreach (Guid pathId in currentRoom.pathIds)
             {
-                Console.WriteLine($"{path1.description}");
-                Console.WriteLine($"{path1.wordToGetThere}");
+                Path paths = GetPathById(pathId);
+                Console.WriteLine(paths.description);
+                Console.WriteLine(paths.wordToGetThere);
                 break;
             }
+            //den gör som den ska, problemet nu är bara att allt körs
+                if (currentRoom == grassField)
+                {
+                    foreach (Guid pathId in grassField.pathIds)
+                    {
+                        Path multiplePaths = GetPathById(pathId);
+                        Console.WriteLine($"Type {multiplePaths.wordToGetThere} to where you want to go.");
+                    }
+                }
             Console.Write("What will you do?:");
             string input = Console.ReadLine();
+            //använder bool för att kontrollera ogiltig inmatning
+            bool foundPath = false;
 
             foreach (Guid pathId in currentRoom.pathIds)
             {
                 Path path = GetPathById(pathId);
                 if (input == path.wordToGetThere)
                 {
-                    nextRoom = GetRoomById(pathId);
+                    currentRoom = GetRoomById(path.destination);
+                    foundPath = true;
                     break;
                 }
+            }
+            if (!foundPath)
+            {
+                Console.WriteLine("You cannot go there... Try again:");
+            }
+            if (currentRoom == outsideDungeon || currentRoom == outsideHouse)
+            {
+                //programmet avslutas här tillfälligt
+                Console.WriteLine(currentRoom.description);
+                break;
             }
         }
     }
