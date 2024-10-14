@@ -1,1156 +1,708 @@
 [
   {
-    "id": "a4ab9b2c-95f5-43e0-ac59-ee0c592766b2",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "38f2e676-992e-4b5d-81a7-8b08e5ce3954"
-    ]
-  },
-  {
-    "id": "0ca2c571-3256-4e3c-be46-848a3ca74d9e",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "98e8d397-1fc4-45ed-9a2d-5fbdffd911e0"
-    ]
-  },
-  {
-    "id": "333c08fc-63ac-46a1-aa0a-11f76e2ae58e",
-    "description": "The gate looks heavy..",
+    "paths": [
+      {
+        "id": "b4a264e8-13d2-44ff-85dd-f5e16475fb95",
+        "destinationRoom": "5389acec-69d5-476f-98a2-afc9433765be",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "2dbff9cc-82af-4ecf-8318-a01c22abea96",
+        "destinationRoom": "063a142a-27ad-476c-be8c-08e6b15d7956",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "7e313634-a68f-4d23-bb0e-8dbf0d94015b",
+    "description": "You are in the StartArea",
     "pathIds": []
   },
   {
-    "id": "8ae3c6c3-d064-4427-a13e-efee5cc04402",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "b05f9111-fe27-4546-a515-b7381c7d6f1c"
-    ]
-  },
-  {
-    "id": "83834f7f-326f-4f48-8c55-696090cd36b0",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "37fbddcc-6d74-422d-824b-286976cdc234"
-    ]
-  },
-  {
-    "id": "55c99726-70df-4180-9d63-f33e9b6081f5",
-    "description": "The gate looks heavy..",
+    "paths": [
+      {
+        "id": "75f5dead-4f1b-4480-bd73-a8107a69c423",
+        "destinationRoom": "30bd4f11-ac80-45d6-bec7-31ad92064c3d",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "063a142a-27ad-476c-be8c-08e6b15d7956",
+    "description": "You are in the Grassfield.",
     "pathIds": []
   },
   {
-    "id": "cf7f0e46-bceb-414a-993c-13aef1183707",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "708e92d3-539d-4994-8984-2d1512c8a5ff"
-    ]
-  },
-  {
-    "id": "5a43e670-ca55-44da-a262-8b714c7c42b0",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "7b31c598-6650-4b84-98a0-2c4d9c5fef8c"
-    ]
-  },
-  {
-    "id": "1d2c5fee-51a1-4322-9370-cf9ba36c9783",
-    "description": "The gate looks heavy..",
+    "paths": [],
+    "id": "5389acec-69d5-476f-98a2-afc9433765be",
+    "description": "You are outside A house",
     "pathIds": []
   },
   {
-    "id": "ab00e967-170a-4779-846b-78d54d029c37",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "96b5666c-d34b-42d1-94b1-30d7b55ba63b"
-    ]
-  },
-  {
-    "id": "f787fd41-0076-41c9-9916-ae60a5bb9875",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "53896ef3-f728-43f5-89c3-69aa70530110"
-    ]
-  },
-  {
-    "id": "24b9f346-06eb-4836-8a1b-8bfc0014ac34",
-    "description": "The gate looks heavy..",
+    "paths": [],
+    "id": "30bd4f11-ac80-45d6-bec7-31ad92064c3d",
+    "description": "You are in front of A lake",
     "pathIds": []
   },
   {
-    "id": "995e575f-51ab-4c9f-a958-68a402893a87",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "e36e2b17-948f-4a85-80f5-42184d956d33"
-    ]
-  },
-  {
-    "id": "55bfc30c-ea99-45ae-9d6c-e5a93e070ac3",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "15a6cd13-3411-45b8-89ce-6a7e719a1832"
-    ]
-  },
-  {
-    "id": "f98b277b-c65d-4daf-9a4c-a48e736e9389",
-    "description": "The gate looks heavy..",
+    "paths": [
+      {
+        "id": "2f24b9d7-c332-448e-93cb-89a81345dd3d",
+        "destinationRoom": "abe4acae-6b85-4f07-be9d-a4edcb56e4c7",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "03c798e5-6f65-4429-b22a-48bff45aefed",
+        "destinationRoom": "82a57f44-d20d-4308-b978-c976f11b0d5a",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "89c17bb1-eee6-4a4d-8d74-3572204a96aa",
+    "description": "You are in the StartArea",
     "pathIds": []
   },
   {
-    "id": "6598900b-5fee-4764-9701-3b4a93bcee44",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "1124c544-d771-47d1-bafc-ff7d2d31b4ac"
-    ]
-  },
-  {
-    "id": "38e8b36f-fd3f-4cbe-ba91-75acb6c11b51",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "0f049271-be50-409e-b94c-20c3e8fcca95"
-    ]
-  },
-  {
-    "id": "033d9a1f-1f5f-4e0f-91f6-84e2f11434c3",
-    "description": "The gate looks heavy..",
+    "paths": [
+      {
+        "id": "ef7d0a84-dfb8-41ba-9fbb-1b994ac8dc4a",
+        "destinationRoom": "39a5c21f-7fc9-4045-9ff1-68b2c4421f79",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "82a57f44-d20d-4308-b978-c976f11b0d5a",
+    "description": "You are in the Grassfield.",
     "pathIds": []
   },
   {
-    "id": "d28bd4b1-5d98-410b-9844-04e5896537c7",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "3a4c1aff-32f6-430c-b722-3bebace4499b"
-    ]
-  },
-  {
-    "id": "05a0e5a7-fa16-4851-9f87-3fe56a0c3d65",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "f8fccca9-b430-4876-b402-a294a32ec602"
-    ]
-  },
-  {
-    "id": "fd351c80-e2ec-4e19-969d-bb6e3dbcc43e",
-    "description": "The gate looks heavy..",
+    "paths": [
+      {
+        "id": "03c798e5-6f65-4429-b22a-48bff45aefed",
+        "destinationRoom": "82a57f44-d20d-4308-b978-c976f11b0d5a",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "abe4acae-6b85-4f07-be9d-a4edcb56e4c7",
+    "description": "You are outside A house",
     "pathIds": []
   },
   {
-    "id": "5e222e27-3ab6-4b00-a966-82f26d612dd0",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "9fa4ce45-14e1-40ed-8d9e-8297f7a9f0cb"
-    ]
-  },
-  {
-    "id": "2cd13676-cba8-4696-9107-189b573c836e",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "de4d83ba-b51e-4250-874a-3970da88266e"
-    ]
-  },
-  {
-    "id": "bd0de9d8-9d96-4841-a01d-00057c217d67",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "de4d83ba-b51e-4250-874a-3970da88266e"
-    ]
-  },
-  {
-    "id": "b449fe37-3b1b-458e-888c-4d9f498db756",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "3140cf12-33ce-4fbf-be83-4ec5ab6ec66d"
-    ]
-  },
-  {
-    "id": "c9763988-9da7-43ad-8b37-960b3c94ad35",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "0971bee6-a28e-4e88-b24c-4e673f04e925"
-    ]
-  },
-  {
-    "id": "58d441c6-40fd-4316-b0aa-0c4080de1b78",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "0971bee6-a28e-4e88-b24c-4e673f04e925"
-    ]
-  },
-  {
-    "id": "7cef855c-d290-4616-b366-a2fddb22ef55",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "55cfaf57-789c-497a-b766-697a491e635a"
-    ]
-  },
-  {
-    "id": "57174f24-d7d0-418d-abec-1106ef9b03e7",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "d0295b75-d708-494e-9bcc-8cb2c06792b4"
-    ]
-  },
-  {
-    "id": "3ee7a28b-7e12-47bd-85b2-c3d28996f5c3",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "d0295b75-d708-494e-9bcc-8cb2c06792b4"
-    ]
-  },
-  {
-    "id": "839b2374-7c4b-42a8-a0f6-a9e43ffbd337",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "0379501a-6fad-497f-815d-4d4a0c93f970"
-    ]
-  },
-  {
-    "id": "9ae12e32-5ca9-4c13-b8dd-377e0135a3e5",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "05f3ded1-c632-4fc1-821b-c9ae33ca47a6"
-    ]
-  },
-  {
-    "id": "0c3e8426-c22d-4b74-b412-7e8be1cf0129",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "05f3ded1-c632-4fc1-821b-c9ae33ca47a6"
-    ]
-  },
-  {
-    "id": "97111ca8-0215-4abd-9e3e-30efd7df7173",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "ca986f1d-198f-4d2a-bae2-1d0eeee8e1a2"
-    ]
-  },
-  {
-    "id": "56355e73-9a0f-42f1-80f1-a8b43b9924c9",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "b1ade95e-8b43-469d-8ed5-d1277bb84240"
-    ]
-  },
-  {
-    "id": "7e5cdd3e-6c3b-47e5-ad72-31a07e6b58c5",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "b1ade95e-8b43-469d-8ed5-d1277bb84240"
-    ]
-  },
-  {
-    "id": "6109a176-5e50-4c04-a451-c3b8eea57077",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "25cf237f-00c0-43a7-859c-401340e4f7ec"
-    ]
-  },
-  {
-    "id": "ed2570c5-19c4-4a84-b6bf-bbd9ebbbdb65",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "b8f3a0fa-fc2a-45ff-92fa-293f644063a6"
-    ]
-  },
-  {
-    "id": "db908519-4980-4c9c-9a8b-937d641987f1",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "b8f3a0fa-fc2a-45ff-92fa-293f644063a6"
-    ]
-  },
-  {
-    "id": "1c76bc7a-d150-4096-9eee-fc429d48c1dd",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "8a660e2e-1a45-4137-885c-0651549049d7"
-    ]
-  },
-  {
-    "id": "725695d2-755f-46a1-84a6-2194ed6886df",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "7b8ea38d-622f-4e23-872d-847b4cf04fa9"
-    ]
-  },
-  {
-    "id": "4d859d1c-7eb6-4340-9b65-8c10de8fd383",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "7b8ea38d-622f-4e23-872d-847b4cf04fa9"
-    ]
-  },
-  {
-    "id": "f9c8ab5a-65f8-4c7a-90e3-787f8409f5a8",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "81be04e4-9dca-4d56-91b7-26148ca37deb"
-    ]
-  },
-  {
-    "id": "2ae8ddff-5bfe-4efb-987a-8ad2bde6fafa",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "b44e395b-7a00-43da-8c21-13e6fba0f1a3"
-    ]
-  },
-  {
-    "id": "ce756377-9104-4a5a-99f5-c672155addfe",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "366cd79d-7b58-4ad4-8303-73540a4996f6"
-    ]
-  },
-  {
-    "id": "4feeb7ed-bc39-48be-8110-94ef9dd73f97",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "7b9a84b8-9855-4975-a584-8757414c134e"
-    ]
-  },
-  {
-    "id": "91204d80-5565-4a1d-a3e4-14c90c16306a",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "b294d455-dbda-424f-9865-63a810ac8a05"
-    ]
-  },
-  {
-    "id": "a203a2f5-469e-4ae6-b9ec-3396a7a36ecc",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "51810b5c-10d6-40be-b2ec-fd233512972c"
-    ]
-  },
-  {
-    "id": "31377290-12b2-49f7-9488-4f375f71de2e",
-    "description": "You look up at the crooked house, the door is slightly open",
-    "pathIds": [
-      "cb4a5821-274e-4cf6-9cfa-eb7067ccabbd"
-    ]
-  },
-  {
-    "id": "a4e578d6-7aee-4a73-abd4-7c2b78832652",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "b294d455-dbda-424f-9865-63a810ac8a05"
-    ]
-  },
-  {
-    "id": "1662ed40-ae64-42e2-a76f-d4ca4a64f836",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "46c99bbb-f193-49c4-a66c-b59fea4eee79"
-    ]
-  },
-  {
-    "id": "72af4efe-f691-4557-9f59-f5ddb0e25698",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "1276e02f-7d97-456e-a352-fb3303fbaad9"
-    ]
-  },
-  {
-    "id": "532a2315-b292-4cf9-8bab-f5a101531f8b",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "68237216-631c-47e9-9425-e8704d601b24"
-    ]
-  },
-  {
-    "id": "a2d42bbb-3736-46d8-a435-49ef4a8e5bb9",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "1316c4bc-5d97-48e6-b778-f424adfc90bc"
-    ]
-  },
-  {
-    "id": "17e5701f-4709-4a4d-a022-832872056629",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "1316c4bc-5d97-48e6-b778-f424adfc90bc"
-    ]
-  },
-  {
-    "id": "fd190224-3de9-4995-ab5f-444746706294",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "3c332f56-7988-4836-ba77-30fce8c30a98"
-    ]
-  },
-  {
-    "id": "18b684a6-4c3c-48ec-affc-43edad3f7e84",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "5965a06a-6cba-43b9-9f59-deaecfc4330a"
-    ]
-  },
-  {
-    "id": "12be74ec-0adf-415f-a86a-ceb45454f3dd",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "a76d97dd-ec88-4952-ac00-2e6497c2d106",
-      "9bab5a9b-a9df-4386-badc-3d2e88202aff"
-    ]
-  },
-  {
-    "id": "ce473d8c-f8c1-4f6e-b337-254b5fa725c0",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "1dbceeaa-5a3d-4fa7-b96b-b3ba17cff8e8"
-    ]
-  },
-  {
-    "id": "7525bdf5-0ae1-4cfb-9c12-ed3084734c67",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "1dbceeaa-5a3d-4fa7-b96b-b3ba17cff8e8"
-    ]
-  },
-  {
-    "id": "216eff49-5aa8-448c-88ee-e8236af12dbd",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "9bab5a9b-a9df-4386-badc-3d2e88202aff"
-    ]
-  },
-  {
-    "id": "bc9f39b2-2bdf-47ee-a2e3-35b1b635da49",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "af696742-14aa-4c1c-ab23-1822b9f6d376"
-    ]
-  },
-  {
-    "id": "6625a970-4c9d-424c-b208-9262661549b5",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "93506e84-dffb-4b86-a1b2-8d60ea91ccda",
-      "4d1733e2-8736-432e-92d8-81782f52ba10",
-      "c4976bb3-e643-4d7a-a91f-56683f2cdc23"
-    ]
-  },
-  {
-    "id": "6cb41fd1-58e2-4a29-91a1-744bd9bc4218",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "af696742-14aa-4c1c-ab23-1822b9f6d376"
-    ]
-  },
-  {
-    "id": "cef25432-84e6-47aa-bf98-fbc863acf09c",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "af696742-14aa-4c1c-ab23-1822b9f6d376"
-    ]
-  },
-  {
-    "id": "92de5973-3786-4941-8983-8945d8e790cb",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "4d1733e2-8736-432e-92d8-81782f52ba10"
-    ]
-  },
-  {
-    "id": "39811eb0-d43d-435e-836f-49f5f562ea35",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "d90d6184-f579-4c4e-ba00-988dbba9a8e0"
-    ]
-  },
-  {
-    "id": "5ca3a164-bf2e-4cdc-be08-32d36eadc48e",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "088d23cf-8a60-442d-b989-32ef9000ac2c",
-      "75ec5c29-d9d3-4027-a958-2a8fb3204597",
-      "958d9ac7-35aa-4590-83dc-731ebc7b5c4f"
-    ]
-  },
-  {
-    "id": "e7a43f88-ca62-4e8b-b242-3d1d92b32d89",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "d90d6184-f579-4c4e-ba00-988dbba9a8e0"
-    ]
-  },
-  {
-    "id": "9c02f540-c930-41d4-a8d8-71e7db10570e",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "d90d6184-f579-4c4e-ba00-988dbba9a8e0"
-    ]
-  },
-  {
-    "id": "6e323c5c-b94e-47c0-9d02-1239aa83426d",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "75ec5c29-d9d3-4027-a958-2a8fb3204597"
-    ]
-  },
-  {
-    "id": "374c325d-3292-4b06-9c18-a8469db43f14",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "1699febc-b51e-42ef-9344-3096af78b10c"
-    ]
-  },
-  {
-    "id": "545b5d45-5606-4765-bfbe-eb85a69281f4",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "9dd0c65e-6cc0-4849-a9f9-f3cb2644be71",
-      "da580675-52c3-435b-9461-9e2cef62e76a",
-      "9d6fe870-dc2c-459d-a68c-c23edfca8b21"
-    ]
-  },
-  {
-    "id": "12573876-6c34-49bf-be62-51a36811bf65",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "1699febc-b51e-42ef-9344-3096af78b10c"
-    ]
-  },
-  {
-    "id": "c70f2d3c-739f-4dc4-89cc-b9e0054b09eb",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "1699febc-b51e-42ef-9344-3096af78b10c"
-    ]
-  },
-  {
-    "id": "8cd89dcf-8e9f-4a75-9f41-b3871de6cce6",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "da580675-52c3-435b-9461-9e2cef62e76a"
-    ]
-  },
-  {
-    "id": "898ec340-9e15-41e6-9c66-2294447bb25d",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "ea89d057-0d95-496b-b30e-6d8166c10fe6"
-    ]
-  },
-  {
-    "id": "cca2e758-2087-400a-ad5d-883cb25a3785",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "24c07196-e123-4a1a-9152-2044fc3a25c7",
-      "635639f4-7cd0-4ab3-bf6d-1ec8f71ade4f",
-      "4762ec8a-8bd9-48a2-ae0f-a251e842d585"
-    ]
-  },
-  {
-    "id": "d21557cc-3f14-4ac3-96a9-64717765f187",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "ea89d057-0d95-496b-b30e-6d8166c10fe6"
-    ]
-  },
-  {
-    "id": "9141e395-dfeb-4005-909c-d2b3b401e588",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "ea89d057-0d95-496b-b30e-6d8166c10fe6"
-    ]
-  },
-  {
-    "id": "17ea58bf-8967-4dff-bfba-868a1ce2f2c1",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "635639f4-7cd0-4ab3-bf6d-1ec8f71ade4f"
-    ]
-  },
-  {
-    "id": "630f2466-4a1d-46e3-885d-c069f0d7a785",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "c20aff4a-aa76-4419-9400-5fdd28930718"
-    ]
-  },
-  {
-    "id": "78471eef-83b1-40a3-a1b2-934ec05e4a20",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "8518603b-948a-4dac-8a92-c1b2097d2012",
-      "a614201b-f75b-4daa-be2e-f092ae6df633",
-      "3103d0dc-9006-42bf-ab4a-6d1bb5c1938a"
-    ]
-  },
-  {
-    "id": "21ed99c7-4999-4bef-a4a8-e46ba5f0e07d",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "c20aff4a-aa76-4419-9400-5fdd28930718"
-    ]
-  },
-  {
-    "id": "93106332-13d5-474c-8b7d-81208798dfd0",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "c20aff4a-aa76-4419-9400-5fdd28930718"
-    ]
-  },
-  {
-    "id": "e6f4bf2e-131f-4db6-953b-9b30173a066a",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "a614201b-f75b-4daa-be2e-f092ae6df633"
-    ]
-  },
-  {
-    "id": "d68313bd-90da-48c6-9514-57854b1357cf",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "cc5adb5e-14a8-4577-9cf4-d6ef679ee8c6"
-    ]
-  },
-  {
-    "id": "73ed4b86-93fc-4421-b5d1-a8884514e30d",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "af107ba0-de60-4291-860a-f984883584f4",
-      "de64c018-35fb-4d76-bafe-7bf0503becff",
-      "d3e44742-733a-481a-b93c-4d3062f0deec"
-    ]
-  },
-  {
-    "id": "de46f62f-782f-4917-a931-0451a385b1a4",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "cc5adb5e-14a8-4577-9cf4-d6ef679ee8c6"
-    ]
-  },
-  {
-    "id": "1ef737ec-d7f5-46f4-8960-aa6cb3c1f5ae",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "cc5adb5e-14a8-4577-9cf4-d6ef679ee8c6"
-    ]
-  },
-  {
-    "id": "fab20af9-81bc-4f62-8ee2-3e0dc35c394d",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "de64c018-35fb-4d76-bafe-7bf0503becff"
-    ]
-  },
-  {
-    "id": "104e79de-6eb9-4b22-a31c-a9b6250f671f",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "7efeaf97-e102-4a08-9ee1-2026ebf57c7e"
-    ]
-  },
-  {
-    "id": "74814dd9-a950-4493-8ac9-63b0cae91d85",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "c8cb38ab-9acd-41ef-95cd-207717284f90",
-      "67bc69c4-4aca-4de6-b70d-94045c5f8bce",
-      "7df1cc34-0a02-4409-b7eb-ddd26db5fa57"
-    ]
-  },
-  {
-    "id": "25ea1767-a2ba-4b5e-8bc8-79badf26a748",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "7efeaf97-e102-4a08-9ee1-2026ebf57c7e"
-    ]
-  },
-  {
-    "id": "09bedb59-712d-40a2-9cc6-b619c08cba3b",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "7efeaf97-e102-4a08-9ee1-2026ebf57c7e"
-    ]
-  },
-  {
-    "id": "9539bdb1-3ad0-420d-96f3-ed96b7954142",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "67bc69c4-4aca-4de6-b70d-94045c5f8bce"
-    ]
-  },
-  {
-    "id": "b2352882-8008-461a-96c4-945770ec4096",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "610354c8-a151-4fd8-804e-eb6b8a36496c"
-    ]
-  },
-  {
-    "id": "fc750800-7c06-4a96-bc15-129057abe48a",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "053669f9-e286-4056-b81c-bbb0702075ad",
-      "a9b57abf-a454-4018-be9a-5ad9db7ead8d",
-      "7e3ec62f-d9ad-4261-b7ed-1a4da8d553c7"
-    ]
-  },
-  {
-    "id": "5c41c600-444f-4cc3-901b-020e1572a105",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "610354c8-a151-4fd8-804e-eb6b8a36496c"
-    ]
-  },
-  {
-    "id": "b9bdfe50-9862-47a2-bfe8-5eb84ca1831c",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "610354c8-a151-4fd8-804e-eb6b8a36496c"
-    ]
-  },
-  {
-    "id": "e73f8cf4-9049-4e56-9607-54dccde7ae7a",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "a9b57abf-a454-4018-be9a-5ad9db7ead8d"
-    ]
-  },
-  {
-    "id": "11f7a023-7d16-468a-8bf6-2b6b887b53f7",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "220c6898-9cb5-4657-93f2-7982e6acc9bc"
-    ]
-  },
-  {
-    "id": "1eeb9c59-1c33-46e1-938c-cd46d6878f3b",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "e650934c-c071-4453-a40b-158667eccb27",
-      "1816e9cf-f653-46af-a10e-fe7222e019cb",
-      "7bffadac-ff7a-442f-8e76-2bafc6fa068a"
-    ]
-  },
-  {
-    "id": "4515b894-2674-4a6c-8ba4-a2c3148bac6f",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "220c6898-9cb5-4657-93f2-7982e6acc9bc"
-    ]
-  },
-  {
-    "id": "6e30a930-76dd-4ae2-bc40-bc8b5ab714c4",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "220c6898-9cb5-4657-93f2-7982e6acc9bc"
-    ]
-  },
-  {
-    "id": "73f3175f-f7e0-49ae-b630-3f0ecd9c2dff",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "1816e9cf-f653-46af-a10e-fe7222e019cb"
-    ]
-  },
-  {
-    "id": "06a3462b-ef5c-4ae6-8ccb-f0d7ee019610",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "6356d27a-7a9b-4830-ad80-74b12ea07b4e"
-    ]
-  },
-  {
-    "id": "a2d28b29-f09f-437e-8ac5-0b34e2cc1c75",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "8f3835c6-655b-4a19-9203-042254d9e1f7",
-      "5983ad3b-da3f-47fe-ad1c-f3dd868ba846",
-      "7982d020-e28d-4faf-97bd-7af616060902"
-    ]
-  },
-  {
-    "id": "a802d98f-3f56-455e-a949-787782ee5c23",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "6356d27a-7a9b-4830-ad80-74b12ea07b4e"
-    ]
-  },
-  {
-    "id": "5a14c1d4-ec26-472e-bb42-a7a7ec5a3941",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "6356d27a-7a9b-4830-ad80-74b12ea07b4e"
-    ]
-  },
-  {
-    "id": "4a1bd0e8-167e-45cb-92f1-4e727ebd42bf",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "5983ad3b-da3f-47fe-ad1c-f3dd868ba846"
-    ]
-  },
-  {
-    "id": "68d477ce-f438-49c3-b667-fc7fa0397c83",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "11eb2ced-2764-4502-9767-c4e6d5dfa985"
-    ]
-  },
-  {
-    "id": "39649a82-cc13-48f7-89c9-08ce316c2100",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "47fc4711-521e-4faa-a97b-01354e0b31dd",
-      "ef989c77-a9e5-4b0e-9f68-528f9748b1b1",
-      "b1375113-4429-4a05-92c3-7e15798cfb66"
-    ]
-  },
-  {
-    "id": "eb48651b-6ffd-4591-a274-8c485b0a6da5",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "11eb2ced-2764-4502-9767-c4e6d5dfa985"
-    ]
-  },
-  {
-    "id": "15a3af62-6c15-4011-b373-e472f7fbe1b5",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "11eb2ced-2764-4502-9767-c4e6d5dfa985"
-    ]
-  },
-  {
-    "id": "d6649eef-3086-4461-bde0-8ba198ad00c9",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "ef989c77-a9e5-4b0e-9f68-528f9748b1b1"
-    ]
-  },
-  {
-    "id": "72339907-af5d-4402-b41a-3d956796ecd1",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "c6a3d095-5559-4b74-b55e-84860d68e172"
-    ]
-  },
-  {
-    "id": "cb7494c5-53c8-4883-83a2-bab4cddf89d6",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "01757c2a-633b-47f2-acea-79b32afdd6e5",
-      "2bc69121-f816-4553-9dda-6852abd7ef3e",
-      "95ee5f5f-65d1-4411-b5b5-268dace6b591"
-    ]
-  },
-  {
-    "id": "6b01153b-a10e-49aa-9241-4e925233f102",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "c6a3d095-5559-4b74-b55e-84860d68e172"
-    ]
-  },
-  {
-    "id": "b0410e14-ac9f-49b9-8723-4b9ac2cf3863",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "c6a3d095-5559-4b74-b55e-84860d68e172"
-    ]
-  },
-  {
-    "id": "ace02dc2-a8e8-40f6-8d3f-9385ea7dc837",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "2bc69121-f816-4553-9dda-6852abd7ef3e"
-    ]
-  },
-  {
-    "id": "4363f444-c46f-466d-8ba3-302b16b8621e",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "32ac14e9-94ab-4897-9abb-f17a4a368cb0"
-    ]
-  },
-  {
-    "id": "ab1c3b98-222a-4a14-81fe-8ccc2a0d6d74",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "7e2ce9b0-e944-4f4d-9fdb-d700bd8fb45d",
-      "eee6631c-a71e-4757-ac60-14a707b22bd9",
-      "71c9433c-2965-4072-ba51-f3f3fd9071d8"
-    ]
-  },
-  {
-    "id": "3d10d327-15cb-4be8-958c-69aa3d48750e",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "32ac14e9-94ab-4897-9abb-f17a4a368cb0"
-    ]
-  },
-  {
-    "id": "9d0a198a-3bdc-4419-b053-f0502067d0fb",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "32ac14e9-94ab-4897-9abb-f17a4a368cb0"
-    ]
-  },
-  {
-    "id": "ada72cb2-102c-4ec8-b305-6406d662cd15",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "eee6631c-a71e-4757-ac60-14a707b22bd9"
-    ]
-  },
-  {
-    "id": "4c1564f5-bedf-4243-9ca9-1dc9e2ac603e",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "1607b26f-d73b-4a85-acde-776b55a2a456"
-    ]
-  },
-  {
-    "id": "ea582bf1-5320-4211-9a96-83b806c6b594",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "98d658d9-e502-4e6d-b0cf-633d485f30dc",
-      "7b6bb915-4859-4d56-915d-8c4ea8f5fe72",
-      "52b61a68-3895-4e9a-986f-7ae380dd9d97"
-    ]
-  },
-  {
-    "id": "79bbbf69-b47e-4248-8b7c-6cf9d34cc11b",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "1607b26f-d73b-4a85-acde-776b55a2a456"
-    ]
-  },
-  {
-    "id": "cb61db9a-6b30-4938-acaa-ca31226f5495",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "1607b26f-d73b-4a85-acde-776b55a2a456"
-    ]
-  },
-  {
-    "id": "ba7aaf64-c0ea-4f7c-bace-8b789a0f1d45",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "7b6bb915-4859-4d56-915d-8c4ea8f5fe72"
-    ]
-  },
-  {
-    "id": "524ed7bb-acd9-4e5a-8898-62b800c66a32",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "bacfd7c0-6a39-462e-b5f7-b67611096e54"
-    ]
-  },
-  {
-    "id": "6e5676b9-d5cb-495e-9330-aa3d6d6bc840",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "50642a41-7d3a-48f3-bea6-9246e2ed6d9a",
-      "17a276d5-9307-407b-834a-1a4e0377a942",
-      "f19690ec-40db-45f2-b48e-6d8aaafee158"
-    ]
-  },
-  {
-    "id": "f5a047fe-8e2c-4144-a8be-f3f1f7a6475d",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "bacfd7c0-6a39-462e-b5f7-b67611096e54"
-    ]
-  },
-  {
-    "id": "1fd5caea-08ad-4dfa-b458-449be9ea28c4",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "bacfd7c0-6a39-462e-b5f7-b67611096e54"
-    ]
-  },
-  {
-    "id": "28c6f312-8c46-4f87-a655-2e4aec2a9c82",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "17a276d5-9307-407b-834a-1a4e0377a942"
-    ]
-  },
-  {
-    "id": "907464b5-3178-4841-adef-60e420b50ff9",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "fb76e230-fbd6-4b72-8795-e988975a42fd"
-    ]
-  },
-  {
-    "id": "92347571-5787-4a48-88ce-5d95257a778e",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "ef499ff8-2719-4fba-9840-fdf7977b9493",
-      "6f20397c-d1b1-4ca2-961d-1d27bb3d84a4",
-      "da6e8f79-f22c-4610-8fc7-5e9de0ad7d17"
-    ]
-  },
-  {
-    "id": "64e487b1-4f9b-489b-99b9-160625781aa6",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "fb76e230-fbd6-4b72-8795-e988975a42fd"
-    ]
-  },
-  {
-    "id": "a62efa24-e368-4312-bb87-97ef222bedf4",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "fb76e230-fbd6-4b72-8795-e988975a42fd"
-    ]
-  },
-  {
-    "id": "a2ff8c24-a5e5-4176-96da-d42fc7e7bc1d",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "6f20397c-d1b1-4ca2-961d-1d27bb3d84a4"
-    ]
-  },
-  {
-    "id": "02e704f4-b84c-4efd-a9fc-c1961a6d5534",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "968a9975-0877-4b8a-b82a-8c3d952b2c26"
-    ]
-  },
-  {
-    "id": "244bf881-176a-493a-a1f4-1bb3acfe6d39",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "a7e12130-6a9b-40b9-8dc4-976edbf29cfc",
-      "0e8346ca-817a-4b38-9ac2-6054bac00c00",
-      "61d47de2-60a5-41e0-9e94-d35565790047"
-    ]
-  },
-  {
-    "id": "05b5214d-d063-444b-845f-1669d6761d1f",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "968a9975-0877-4b8a-b82a-8c3d952b2c26"
-    ]
-  },
-  {
-    "id": "571fd8d1-4c5a-4c13-a7be-845d1a8053da",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "968a9975-0877-4b8a-b82a-8c3d952b2c26"
-    ]
-  },
-  {
-    "id": "baf23deb-6ae7-4fda-b1a1-9790a742925c",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "0e8346ca-817a-4b38-9ac2-6054bac00c00"
-    ]
-  },
-  {
-    "id": "ae72e85a-96a1-431b-9033-2c579ef17c43",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "daaf5b1f-3b9d-4723-ba2b-de45b8e88614"
-    ]
-  },
-  {
-    "id": "7d0ab59d-6b62-4b01-8dd8-d9443c328b8d",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "3af96987-8eff-44c9-a035-1c14d93e8e74",
-      "a0ad499b-f17f-42b2-aca6-0792baf4c30d",
-      "c9bc007b-6fcf-4ff4-b9e3-3f29165f88f7"
-    ]
-  },
-  {
-    "id": "4b49fc36-1519-4f84-81e0-589aff37d9f5",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "daaf5b1f-3b9d-4723-ba2b-de45b8e88614"
-    ]
-  },
-  {
-    "id": "43081f7b-f758-4af3-8d38-68fa1dbbca4e",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "daaf5b1f-3b9d-4723-ba2b-de45b8e88614"
-    ]
-  },
-  {
-    "id": "7dbda7df-7887-428a-aa89-fcfea5f0a058",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "a0ad499b-f17f-42b2-aca6-0792baf4c30d"
-    ]
-  },
-  {
-    "id": "3aa80be3-3505-4a46-b452-39699df9bb83",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "12cfc328-c6b1-4f82-9332-a1291dace97e"
-    ]
-  },
-  {
-    "id": "f097300e-8356-4ca4-b54a-322a1582aadb",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "56fdd7be-6b6e-4c9d-b340-7fd7f6542df1",
-      "5e87a73f-0efe-4890-a53f-d298080ce7fb",
-      "dc5ca0a1-07d9-4365-a5d5-16bc4cb2e3c9"
-    ]
-  },
-  {
-    "id": "25bbfe99-1f10-4b15-9848-f5bfc7b8a2e8",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "12cfc328-c6b1-4f82-9332-a1291dace97e"
-    ]
-  },
-  {
-    "id": "1ba815f0-dc33-4d83-bf3c-43ffcf94102a",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "12cfc328-c6b1-4f82-9332-a1291dace97e"
-    ]
-  },
-  {
-    "id": "3b3654a4-0686-4f1c-ad5f-4f3763eef794",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "5e87a73f-0efe-4890-a53f-d298080ce7fb"
-    ]
-  },
-  {
-    "id": "159ac7af-6000-4d92-a02c-a8e0a12e6409",
-    "description": "Isn't it wierd to just.. wake up?",
-    "pathIds": [
-      "2392ddd1-214a-4ea5-ac30-1655b8e9f64c"
-    ]
-  },
-  {
-    "id": "01c068c9-660f-43fd-93f8-bf63257318ea",
-    "description": "The smell of grass calms you down",
-    "pathIds": [
-      "a9f3ed40-8d32-4dc1-9e28-1014ada3883d",
-      "b3ee4fb8-1c4c-482e-baa8-e5461aa838e2",
-      "39ee9751-18f3-4af7-94d2-26fa4d632796"
-    ]
-  },
-  {
-    "id": "3e2e863b-8837-4d4b-8aa2-e3091f9b9901",
-    "description": "The lake glisters in the sun, is that a person?",
-    "pathIds": [
-      "2392ddd1-214a-4ea5-ac30-1655b8e9f64c"
-    ]
-  },
-  {
-    "id": "2c1f9ef8-4cae-49a2-86d3-b0fce0b5978a",
-    "description": "You look at the weirdo sleeping in his rocking chair",
-    "pathIds": [
-      "2392ddd1-214a-4ea5-ac30-1655b8e9f64c"
-    ]
-  },
-  {
-    "id": "71704f72-8ae1-4e46-b168-14379309b71d",
-    "description": "The gate looks heavy..",
-    "pathIds": [
-      "b3ee4fb8-1c4c-482e-baa8-e5461aa838e2"
-    ]
+    "paths": [
+      {
+        "id": "03c798e5-6f65-4429-b22a-48bff45aefed",
+        "destinationRoom": "82a57f44-d20d-4308-b978-c976f11b0d5a",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "39a5c21f-7fc9-4045-9ff1-68b2c4421f79",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "a6c98602-d592-4350-b398-4693c8583498",
+        "destinationRoom": "1b169f08-f31d-4d52-aec8-d1eae9599a39",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "7e75389b-ccef-439d-a044-f24a368cadee",
+        "destinationRoom": "641ea5c8-31f2-4235-8bbc-867af7ac303e",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "114ad84b-fd63-4bfe-8c62-500bb5b76018",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "9467ee5c-a767-4f86-9980-8d7f2b640cda",
+        "destinationRoom": "3ffaedda-031b-4583-8397-c89ce9b3c5b6",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "641ea5c8-31f2-4235-8bbc-867af7ac303e",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "7e75389b-ccef-439d-a044-f24a368cadee",
+        "destinationRoom": "641ea5c8-31f2-4235-8bbc-867af7ac303e",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "1b169f08-f31d-4d52-aec8-d1eae9599a39",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "7e75389b-ccef-439d-a044-f24a368cadee",
+        "destinationRoom": "641ea5c8-31f2-4235-8bbc-867af7ac303e",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "3ffaedda-031b-4583-8397-c89ce9b3c5b6",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "d3bd54f7-2d85-4499-a2ef-0cb76c2aefd6",
+        "destinationRoom": "9d6d17da-8c30-4165-af5f-4006e8185725",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "a2129243-7d0e-45b3-8848-b3ff3c38aa08",
+        "destinationRoom": "e3c82dbf-0210-47d5-b8dc-90bbe2730fcf",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "642445e0-8101-45f8-863b-bacd5b826bff",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "75a9f49b-39f5-4066-958a-10a65b57a632",
+        "destinationRoom": "ac4c1d08-37ff-452a-894c-f9294569f992",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "e3c82dbf-0210-47d5-b8dc-90bbe2730fcf",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "a2129243-7d0e-45b3-8848-b3ff3c38aa08",
+        "destinationRoom": "e3c82dbf-0210-47d5-b8dc-90bbe2730fcf",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "9d6d17da-8c30-4165-af5f-4006e8185725",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "a2129243-7d0e-45b3-8848-b3ff3c38aa08",
+        "destinationRoom": "e3c82dbf-0210-47d5-b8dc-90bbe2730fcf",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "ac4c1d08-37ff-452a-894c-f9294569f992",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "fd6a7c60-0249-4e47-8085-d47fc9b975c3",
+        "destinationRoom": "300ba8b9-28fb-4e4b-85d3-9ab22273f154",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "7b14cdc2-0d4b-4547-acf4-af4c890c096b",
+        "destinationRoom": "57a744cd-cd1c-4055-8088-fd9a12f198ba",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "511dd5b1-7d1b-405a-9946-6dba70089130",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "bd6c429e-43e6-4964-8211-2524042d2e65",
+        "destinationRoom": "e60c74a2-f5e2-409f-86c9-b1d1ff2901c8",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "57a744cd-cd1c-4055-8088-fd9a12f198ba",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "7b14cdc2-0d4b-4547-acf4-af4c890c096b",
+        "destinationRoom": "57a744cd-cd1c-4055-8088-fd9a12f198ba",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "300ba8b9-28fb-4e4b-85d3-9ab22273f154",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "7b14cdc2-0d4b-4547-acf4-af4c890c096b",
+        "destinationRoom": "57a744cd-cd1c-4055-8088-fd9a12f198ba",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "e60c74a2-f5e2-409f-86c9-b1d1ff2901c8",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "e6a5f8bc-552e-4c60-8b79-72d5462434d3",
+        "destinationRoom": "9f3489f3-634b-49e5-9ab3-7a82a2453540",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "0a565990-64ca-46b7-a163-46f1083ef0c5",
+        "destinationRoom": "235c642c-5cfd-4abd-81cc-f9e496565729",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "9b5da312-8e7a-46a0-9f4c-6b650fdb8691",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "b2c801df-96cf-468d-99f6-8e99f9b7e9df",
+        "destinationRoom": "cbb27fe8-6faf-4dba-aacf-30176ce592a2",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "235c642c-5cfd-4abd-81cc-f9e496565729",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "0a565990-64ca-46b7-a163-46f1083ef0c5",
+        "destinationRoom": "235c642c-5cfd-4abd-81cc-f9e496565729",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "9f3489f3-634b-49e5-9ab3-7a82a2453540",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "0a565990-64ca-46b7-a163-46f1083ef0c5",
+        "destinationRoom": "235c642c-5cfd-4abd-81cc-f9e496565729",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "cbb27fe8-6faf-4dba-aacf-30176ce592a2",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "d3b9839b-6514-426b-a434-a55454c4d17b",
+        "destinationRoom": "908b3c36-f33e-44d6-a751-6dd3be5eccf7",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      },
+      {
+        "id": "cb263ce2-49bc-4a43-b395-be353f4ed909",
+        "destinationRoom": "ae8e2d89-b85d-41a7-83f0-e7824a37ec9b",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "68872b22-3265-431f-8cc2-ebd6aba9db26",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "ca411133-2368-43a9-8620-5b50f8a078ae",
+        "destinationRoom": "f95dda1b-f058-4bbe-b105-875dc44ad3c6",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      }
+    ],
+    "id": "ae8e2d89-b85d-41a7-83f0-e7824a37ec9b",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "cb263ce2-49bc-4a43-b395-be353f4ed909",
+        "destinationRoom": "ae8e2d89-b85d-41a7-83f0-e7824a37ec9b",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "908b3c36-f33e-44d6-a751-6dd3be5eccf7",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "cb263ce2-49bc-4a43-b395-be353f4ed909",
+        "destinationRoom": "ae8e2d89-b85d-41a7-83f0-e7824a37ec9b",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "f95dda1b-f058-4bbe-b105-875dc44ad3c6",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "f1f07d9c-ca13-414c-82d3-26313eb18389",
+        "destinationRoom": "71df8a64-2526-4ae6-add1-8397e828975c",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      },
+      {
+        "id": "a6c5adab-77a1-4380-a950-777a18399708",
+        "destinationRoom": "0d6b02d6-19c4-4f00-b1bf-92069c079c82",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "b229604b-2625-483a-b820-7523a9fdc3ff",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "61277635-19fd-49fa-b7cc-ac4e9f8e3001",
+        "destinationRoom": "6b3494a5-e668-4b70-88a5-6dd7ff62bfd5",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "a6c5adab-77a1-4380-a950-777a18399708",
+        "destinationRoom": "0d6b02d6-19c4-4f00-b1bf-92069c079c82",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "71df8a64-2526-4ae6-add1-8397e828975c",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "0d6b02d6-19c4-4f00-b1bf-92069c079c82",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "6b3494a5-e668-4b70-88a5-6dd7ff62bfd5",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "d538a907-eea2-499d-be04-98742e2c5d50",
+        "destinationRoom": "5e74a21f-c680-45eb-9c18-d494e20c3d2d",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "d30bdd7f-0442-4397-93ec-b5943f04687d",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "0074e045-7253-4e73-ba69-07ab607a6a6e",
+        "destinationRoom": "63698bf3-1e71-4c12-8c6e-c0d63192a796",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "afaf2344-b8a5-42b9-889d-13388a1d5aee",
+        "destinationRoom": "7e76e67b-21a7-4427-bb9e-e1366e9a39d7",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "5e74a21f-c680-45eb-9c18-d494e20c3d2d",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "7e76e67b-21a7-4427-bb9e-e1366e9a39d7",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "63698bf3-1e71-4c12-8c6e-c0d63192a796",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "bf828155-a1dc-4f55-b1fb-9f3a004d6a16",
+        "destinationRoom": "297fb6d9-a469-4481-a39c-4488c64f299f",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "8cad70ed-d061-4d30-87f9-d1e3fe8c1d6c",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "a3981ca5-61a8-414c-b9d7-a5124de8c2d1",
+        "destinationRoom": "c82f72d6-8803-4eb9-98b2-2eb2c7fd9cc2",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "a2fbb55c-e496-4222-945c-547ffcf14bb1",
+        "destinationRoom": "005294ae-3768-4804-ace3-47a4b0523ad9",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "297fb6d9-a469-4481-a39c-4488c64f299f",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "005294ae-3768-4804-ace3-47a4b0523ad9",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "c82f72d6-8803-4eb9-98b2-2eb2c7fd9cc2",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "2d1a0d18-0aaa-44fa-a91d-6efa84291443",
+        "destinationRoom": "d03f9317-9725-427d-88c3-8a112ad48c31",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "bde545c1-16b4-42ac-9f24-d2ce1cdd859b",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "c657110f-be22-44e0-8496-0f39cdb20e33",
+        "destinationRoom": "0501b5e1-88b9-4017-9a6f-880e2d4a8547",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "1e7c2d3b-e3d6-46a8-9bb1-4bca1155d170",
+        "destinationRoom": "25f077ee-0cc4-4a8f-a388-0c458c327672",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "d03f9317-9725-427d-88c3-8a112ad48c31",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "25f077ee-0cc4-4a8f-a388-0c458c327672",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "0501b5e1-88b9-4017-9a6f-880e2d4a8547",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "c926175f-e422-4508-be5f-dbb7f9ec2e02",
+        "destinationRoom": "c0aa7f18-8fbd-4c29-8976-4f2246b180d9",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "0dee5cb3-e39f-4873-8354-6fbeef4a70de",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "930d5e16-a24b-43b0-acf1-2e03448af57f",
+        "destinationRoom": "a7c17609-4035-45b6-8c74-9fb20e4e517a",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "8ed807a1-b943-4334-b06a-040e00c4f0fb",
+        "destinationRoom": "aff8f479-1766-40a3-8ba8-971fb1c1538b",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "c0aa7f18-8fbd-4c29-8976-4f2246b180d9",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "aff8f479-1766-40a3-8ba8-971fb1c1538b",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "a7c17609-4035-45b6-8c74-9fb20e4e517a",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "b7fdba8e-8a77-4416-a378-7dcf8fb0b038",
+        "destinationRoom": "e7a0815f-f437-4486-a512-0fc661049cf3",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "82702abc-7aae-4247-a83c-4b586f997072",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "edb2330b-2f09-44a5-8c09-d396071ea6c2",
+        "destinationRoom": "445bbc25-aa36-4110-8540-01adaa877ce4",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "4bb589e0-887b-4170-84f8-2f72dafdb38c",
+        "destinationRoom": "c08a0c79-30dd-41bc-bbc0-1101ea544921",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "e7a0815f-f437-4486-a512-0fc661049cf3",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "c08a0c79-30dd-41bc-bbc0-1101ea544921",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "445bbc25-aa36-4110-8540-01adaa877ce4",
+    "description": "You are in front of A lake",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "61178ab5-457f-42a5-a6d6-b5e8bb8c9310",
+        "destinationRoom": "541b3058-ea0f-4230-806b-fb1e1e3149e1",
+        "description": "A gentle breeze guides you forward.",
+        "wordToGetThere": "Follow"
+      }
+    ],
+    "id": "87ca44bb-9f3f-4dda-a863-ddf19a6d242a",
+    "description": "You are in the StartArea",
+    "pathIds": []
+  },
+  {
+    "paths": [
+      {
+        "id": "26cbd7e6-c9f2-46e4-be6f-615245f776e8",
+        "destinationRoom": "797137e5-91ae-4fe0-bb5b-1fef3a597dc4",
+        "description": "You continue on the path through the trees, a small pond is in your way",
+        "wordToGetThere": "Jump"
+      },
+      {
+        "id": "242958a8-a77b-432c-8b8d-4fc749835496",
+        "destinationRoom": "fe6fc037-8e9d-4d8f-9384-631207d9b84a",
+        "description": "You see a old house.",
+        "wordToGetThere": "Walk"
+      }
+    ],
+    "id": "541b3058-ea0f-4230-806b-fb1e1e3149e1",
+    "description": "You are in the Grassfield.",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "fe6fc037-8e9d-4d8f-9384-631207d9b84a",
+    "description": "You are outside A house",
+    "pathIds": []
+  },
+  {
+    "paths": [],
+    "id": "797137e5-91ae-4fe0-bb5b-1fef3a597dc4",
+    "description": "You are in front of A lake",
+    "pathIds": []
   }
 ]
