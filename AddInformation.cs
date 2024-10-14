@@ -1,0 +1,7 @@
+namespace Game
+{
+    class AddInformation
+    {
+        
+    }
+}
