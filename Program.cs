@@ -8,11 +8,15 @@ namespace Game
         static List<Room> rooms = new List<Room>();
         //skapa paths, items, enemies i room klassen
         //4 room, 3 paths
-
+        // 1 till 9, a - f
+        //guid generator online
+        //bygga rummen i en editor
+        //ange i rummen, monster items mm
+        //admin metod för att 
         static void Main()
         {
             LoadJson();
-            Room startArea = new Room("You are in the StartArea");
+            /*Room startArea = new Room("You are in the StartArea");
             Room grassField = new Room("You are in the Grassfield.");
             Room outsideHouse = new Room("You are outside A house");
             Room lake = new Room("You are in front of A lake");
@@ -21,20 +25,20 @@ namespace Game
             rooms.Add(grassField);
             rooms.Add(outsideHouse);
             rooms.Add(lake);
-
             Path pathToHouse = new Path(outsideHouse.id, "You see a old house.", "Walk");
             Path pathToField = new Path(grassField.id, "A gentle breeze guides you forward.", "Follow");
             Path pathToLake = new Path(lake.id, "You continue on the path through the trees, a small pond is in your way", "Jump");
 
             startArea.paths.Add(pathToField);
             grassField.paths.Add(pathToLake);
-            grassField.paths.Add(pathToHouse);
+            grassField.paths.Add(pathToHouse);*/
             //problem med att den inte vill ladda det andra rummet om samma rum har fler än 2 paths
             //men det funkar om jag inte använder startarea??
 
-            SaveToJson();
+            //SaveToJson();
 
-            Room currentRoom = startArea;
+            //Kallar på Id på första rummet genom new Guid, söker igeom idt genom GetRoombyId
+            Room currentRoom = GetRoomById(rooms, new Guid("9d8a188c-bdcd-4d14-963f-c09957fde60f"));
             //använder bool för att kontrollera ogiltig inmatning
             bool foundPath = false;
 
