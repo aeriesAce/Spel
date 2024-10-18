@@ -71,13 +71,16 @@ namespace Game
 
         private static void StartRound(Character hero, Enemy enemy)
         {
+            Console.WriteLine($"You encounter a {enemy.Name}!");
             List<string> heroActions = new List<string>();
             List<string> enemyActions = new List<string>();
+            
+            string[] combatOptions = ["Attack", "Cast spell", "Open inventory", "Run away"];
 
             while (true)
             {
                 // Method for players turn:
-                PlayerTurn(hero);
+                PlayerTurn(hero, combatOptions);
 
                 // Method for enemies turn (to generate their actions):
                 EnemyTurn(enemy);
@@ -96,9 +99,27 @@ namespace Game
             }
         }
 
-        private static void PlayerTurn(Character hero)
+        private static void PlayerTurn(Character hero, string[] combatOptions)
         {
+            Console.WriteLine($"It is time to decide, {hero.Name}. What will you do?");
+            Console.WriteLine($"{combatOptions[0]}  |  {combatOptions[1]}  |  {combatOptions[2]}  |  {combatOptions[3]}");
+            string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "attack":
+                break;
+                
+                case "spell":
+                break;
+                
+                case "inventory":
+                break;
+                
+                case "run":
+                break;
+                
+            }
         }
 
         private static void EnemyTurn(Enemy enemy)
