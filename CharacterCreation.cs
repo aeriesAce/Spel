@@ -31,6 +31,10 @@ namespace Game
                 {
                     Console.WriteLine("You pick up some item.");
                 }
+                else
+                {
+                    Console.WriteLine("I don't understand you");
+                }
             }
 
             Character hero = new Character(name, health, mana, new Ranger());
@@ -43,7 +47,9 @@ namespace Game
         public static string GenerateName()
         {
             Console.WriteLine("You carefully pick up the book. Its leather cover is worn, dirty and bloodied.");
-            Console.WriteLine("You open the first page. In the top, it states the name of who have written the book.");
+            Console.WriteLine("- '..I remember now. I got this book from.. what's his name again?'");
+            Console.WriteLine("You open the first page. In the top, it previously stated the name of who have written the book, but it have been partially erased.");
+            Console.WriteLine("- '..I might as well write down my name here.'");
             Console.Write("Author: ");
             string name = ValidateCharacterName();
             return name;
