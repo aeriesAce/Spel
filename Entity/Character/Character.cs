@@ -10,8 +10,8 @@ namespace Game
         public Inventory Inventory { get; set; } = new Inventory();
         public Equipment Equipped { get; set; } = new Equipment();
 
-        public Character (string name, int health, int mana, CharacterClass baseClass)
-        : base (name, health, mana)
+        public Character (string name, int totalHealth, int totalMana, int armor, int damage, CharacterClass baseClass)
+        : base (name, totalHealth, totalMana, armor, damage)
         {
             Level = 1; // Base level
             Experience = 0; // No experience from the start

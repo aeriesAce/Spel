@@ -2,8 +2,8 @@ namespace Game
 {
     public class Inventory
     {
-        public int Gold { get; set; }
-        public List<Item> ?Items { get; set; }
+        public int Gold { get; set; } = 0;
+        public List<Item> ?Items { get; set; } = new List<Item>();
         public double CurrentWeight { get; set; } = 0;
         public double MaxWeight { get; set; } = 50;
         

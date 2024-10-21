@@ -7,15 +7,18 @@ namespace Game
         public int CurrentHealth { get; set; }
         public int TotalMana { get; set; }
         public int CurrentMana { get; set; }
+        public int Armor { get; set; }
         public int Damage { get; set; }
 
-        public Entity (string name, int health, int mana)
+        public Entity (string name, int totalHealth, int totalMana, int armor, int damage)
         {
             Name = name;
-            TotalHealth = health;
+            TotalHealth = totalHealth;
             CurrentHealth = TotalHealth;
-            TotalMana = mana;
+            TotalMana = totalMana;
             CurrentMana = TotalMana;
+            Armor = armor;
+            Damage = damage;
         }
     }
 }
