@@ -5,10 +5,10 @@ namespace Game
         public static void CombatSimulation()
         {
             // Generates a hero
-            Character hero = new Character("HeroName", 50, 20, CharacterClass.Ranger);
+            Character hero = new Character("HeroName", 50, 20, new Ranger());
 
             // Generates an enemy
-            Enemy enemy = new Enemy("Forest Troll", 40, 15, 7, 20);
+            NPC enemy = new NPC("Forest Troll", 40, 15, 7, 20, true);
 
             StartCombat(hero, enemy);
         }
@@ -38,7 +38,7 @@ namespace Game
             // Then, generate the enemy party with the following method:
             // Party enemyParty = ???;
             // Generates an enemy
-            Enemy enemy = new Enemy("Forest Troll", 40, 15, 7, 20);
+            NPC enemy = new NPC("Forest Troll", 40, 15, 7, 20, true);
 
             // Then, start the combat with the following method:
             StartCombat(hero, enemy);
@@ -63,13 +63,13 @@ namespace Game
             return biome;
         }
 
-        private static void StartCombat(Character hero, Enemy enemy)
+        private static void StartCombat(Character hero, NPC enemy)
         {
             // Loop the following method to simulate rounds
             StartRound(hero, enemy);
         }
 
-        private static void StartRound(Character hero, Enemy enemy)
+        private static void StartRound(Character hero, NPC enemy)
         {
             Console.WriteLine($"You encounter a {enemy.Name}!");
             List<string> heroActions = new List<string>();
@@ -122,7 +122,7 @@ namespace Game
             }
         }
 
-        private static void EnemyTurn(Enemy enemy)
+        private static void EnemyTurn(NPC enemy)
         {
 
         }
@@ -137,7 +137,7 @@ namespace Game
 
         }
 
-        private static bool CheckEndCondition(Character hero, Enemy enemy)
+        private static bool CheckEndCondition(Character hero, NPC enemy)
         {
             // Check if either team has no members with HP > 0
             bool allHeroesDefeated = true;
